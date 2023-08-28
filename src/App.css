@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.basket {
+  font-size: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.product-title {
+  font-size: 2.5rem;
+}
+
+.product {
+  list-style: none;
+  max-width: 540px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 16px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.each-product {
+  border: solid black;
+  border-radius: 30% 30%;
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
